@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <Button
+            android:id="@+id/user_details"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="300dp"
+            android:hint="Add Users"
+            android:textColorHint="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/user_logs"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="-149dp"
+            android:layout_marginTop="380dp"
+            android:hint="Display Logs"
+            android:textColorHint="#ffffff"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
